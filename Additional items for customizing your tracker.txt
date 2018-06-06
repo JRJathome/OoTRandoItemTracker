@@ -1,0 +1,28 @@
+	As much as I'd like to, I can't fit every item into the tracker. And in some cases, I saw little point in tracking certain items. However, in order to encourage customization, I've added additional items that aren't shown using the default tracker layout. These can be easily added using the item codes below in the tracker layout or broadcast layout jsons.
+
+sticks - Deku Sticks; Also tracks capacity upgrades.
+
+nuts - Deku Nots; Also tracks capacity upgrades.
+
+bombchu - Bombchus toggle.
+
+beans - Used to track how many beans you've purchased. Max count is 10.
+
+greentunic - Tracks your starting tunic, so it's always on and can't be disabled. Just for asthetics if you want to copy the layout of the gear menu shown in game.
+
+tunics - This tracks both red and blue tunics using a single icon instead of 2 separate ones. This also works alongside the redtunic and bluetunic items: You can have separate icons on the tracker layout and this single icon on the broadcast layout, and it'll work.
+
+kokiriboots - Just like the greentunic item, this tracks your starting boots and can't be turned off.
+
+boots - Like the tunics item, this tracks hover boots and iron boots in a single icon. See tunics for more information.
+
+free_label and free_prize - An earlier version of the tracker layout used these icons to mark the spiritual stone or medallion you got for free at the start of the game. When someone asked me to add a label for Ice Cavern, I removed these.
+
+membership - Requested by Hamsda, this tracks the membership card given to you by the Gerudo after you beat their guards in the Gerudo Fortress. I wasn't going to add this originally, since the membership card is in its original location, but decided to add it anyway.
+
+wallet - This item can be used to track which wallet you have and how many rupees you can carry. Added because I'm not sure whether buying tunics are part of the logic or not, so tracking when you can purchase one could be handy.
+
+
+
+
+	I believe this covers all the items in the game. If you have a request, let me know in the EmoTracker discord server. Thanks.

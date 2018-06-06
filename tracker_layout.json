@@ -1,0 +1,183 @@
+﻿{
+  "map_enabled": true,
+  "auto_pin_capturing_locations": false,
+  "auto_unpin_on_clear": true,
+  "allow_resize": false,
+  "layout_swap_left_right": false,
+  "disabled_image_filter": "grayscale, dim",
+  "layouts": {
+    "shared_item_grid": {
+      "type": "array",
+      "orientation": "vertical",
+      "content": [
+        {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "itemgrid",
+              "h_alignment": "center",
+			  "item_size": 32,
+              "item_margin": "0,0,2,10",
+              "rows": [
+                [ "slingshot", "bombs", "bow", "firearrow", "dinsfire","lullaby", "minuet", "forest" ],
+				[ "ocarina", "boomerang", "hookshot", "icearrow", "faroreswind", "epona", "bolero", "fire" ],
+				[ "bottle", "lens", "hammer", "lightarrow", "nayruslove", "saria", "serenade", "water" ],
+				[ "sword1", "sword3", "ironboots", "lift1", "agony", "sun", "requiem", "spirit" ], 
+				[ "redtunic", "bluetunic", "hoverboots", "scale1", "kidtrade", "time", "nocturne", "shadow" ],
+				[ "shield1", "shield2", "shield3", "skulltula", "adulttrade", "storm", "prelude", "light" ],
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "array",
+                  "orientation": "vertical",
+                  "content": [
+                    {
+                      "type": "itemgrid",
+                      "h_alignment": "center",
+                      "item_margin": "0,24",
+                      "item_size": 32,
+					  "margin": "0,3",
+                      "badge_font_size": 10,
+                      "rows": [
+                        [ "emerald" ],
+                        [ "ruby" ],
+						[ "sapphire" ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+		{
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "itemgrid",
+                      "h_alignment": "center",
+                      "item_margin": "1,1",
+                      "item_height": 16,
+                      "item_width": 58,
+					  "margin": "1,0,0,0",
+                      "badge_font_size": 10,
+                      "rows": [
+                        [ "deku_label" ],
+                        [ "dodongo_label" ],
+						[ "jabu_label" ],						
+						[ "forest_label" ]
+                      ]
+                    },
+					{
+                      "type": "itemgrid",
+                      "h_alignment": "center",
+                      "item_margin": "1,1",
+                      "item_height": 16,
+                      "item_width": 16,
+					  "margin": "0,0",
+                      "badge_font_size": 10,
+                      "rows": [
+                        [ "deku_treasures", "deku_prize" ],
+						[ "dodongo_treasures", "dodongo_prize" ],
+						[ "jabu_treasures", "jabu_prize" ],
+						[ "forest_treasures", "forest_prize" ]
+						
+                      ]
+                    },
+					{
+                      "type": "itemgrid",
+                      "h_alignment": "center",
+                      "item_margin": "1,1",
+                      "item_height": 16,
+                      "item_width": 58,
+					  "margin": "1,0,0,0",
+                      "badge_font_size": 10,
+                      "rows": [
+						[ "fire_label" ],
+						[ "water_label" ],
+						[ "spirit_label" ],
+						[ "shadow_label" ]
+                      ]
+                    },
+					{
+                      "type": "itemgrid",
+                      "h_alignment": "center",
+                      "item_margin": "1,1",
+                      "item_height": 16,
+                      "item_width": 16,
+					  "margin": "0,0",
+                      "badge_font_size": 10,
+                      "rows": [
+						[ "fire_treasures", "fire_prize" ],
+						[ "water_treasures", "water_prize" ],
+						[ "spirit_treasures", "spirit_prize" ],
+						[ "shadow_treasures", "shadow_prize" ]
+                      ]
+                    },
+					{
+                      "type": "itemgrid",
+                      "h_alignment": "center",
+                      "item_margin": "1,1",
+                      "item_height": 16,
+                      "item_width": 58,
+					  "margin": "1,0,0,0",
+                      "badge_font_size": 10,
+                      "rows": [
+                        [ "ice_label" ],
+                        [ "well_label" ],
+						[ "gerudo_label" ],
+						[ "ganon_label" ]
+						
+                      ]
+                    },
+					{
+                      "type": "itemgrid",
+                      "h_alignment": "center",
+                      "item_margin": "1,1",
+                      "item_height": 16,
+                      "item_width": 16,
+					  "margin": "0,0",
+                      "badge_font_size": 10,
+                      "rows": [
+                        [ "ice_treasures", "" ],
+                        [ "well_treasures", "" ],
+						[ "gerudo_treasures", "" ],
+						[ "ganon_treasures", "" ]
+                      ]
+                    },
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+      ]
+    },
+    "tracker_default": {
+      "type": "container",
+      "width": 360,
+      //"height": 250,
+      "background": "#212121",
+      "content": {
+        "type": "layout",
+        "dropshadow": true,
+        "margin": 10,
+        "key": "shared_item_grid"
+      }
+    }
+  }
+}
