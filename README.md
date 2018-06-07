@@ -4,7 +4,7 @@ This tracker pack was made for EmoSaru's EmoTracker and requires it to run. You 
 
 This pack features icons for every item in Ocarina of Time Randomizer, but doesn't include a map showing what chests are available.
 
-#Some tips to get the most out of the tracker:
+# Some tips to get the most out of the tracker:
 
   Items that have capacity upgrades are progressive. Simply left-click the icon again to increase the number on the icon. These items include the slingshot, bombs, bow, deku nuts, sticks, skulltulas and bottles.
   Other items are also progressive and work the same way. You'll always obtain these in the same order in-game. These items include the ocarinas, hookshot/longshot, lift upgrades, zora scales, and the adult and kid trading quests.
