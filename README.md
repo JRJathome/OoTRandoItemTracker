@@ -1,6 +1,6 @@
 # Ocarina of Time Items Only Tracker Pack for EmoTracker.
 
-  This tracker pack was made for EmoSaru's EmoTracker and requires it to run. You can find it at [the EmoTracker discord](https://goo.gl/XG844K)
+  This tracker pack was made for EmoSaru's EmoTracker and requires it to run. You can find it at [the EmoTracker discord](https://goo.gl/XG844K).
 
   This pack features icons for every item in Ocarina of Time Randomizer, but doesn't include a map showing what chests are available.
 
